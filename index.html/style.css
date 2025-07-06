@@ -1,0 +1,122 @@
+body {
+  background-color: #ffeef2;
+  font-family: Arial, sans-serif;
+  padding: 10px;
+}
+
+h1 {
+  color: hsl(37, 71%, 54%);
+  text-align: center;
+}
+
+p {
+  font-size: 28px;
+  text-align: justify;
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+h2 {
+  color: hsl(162, 64%, 37%);
+  text-align: center;
+  font-size: 27px;
+}
+
+
+.hobbies-container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.texto-hobbie {
+  display: inline-block; 
+  text-align: left;         
+  margin: 0 auto;            
+  padding-left: 20px;        
+}
+
+.hobbie {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.texto-hobbie li {
+  margin: 12px 0;
+  font-size: 22px;
+}
+
+
+.culinaria {
+  height: auto;  
+  width: 500px;
+  display: block;
+  margin:  auto;
+  border-radius: 40px;
+}
+
+.pais {
+  text-align: center;
+  color: #8e44ad;
+  font-size: 24px;
+  margin: 40px 0 20px;
+}
+
+.tabela-pais {
+  width: 90%;                   
+  max-width: 900px;             
+  margin: 30px auto;            
+  border-spacing: 0 12px;     
+  background-color: #fff0f5;
+  border-radius: 16px;
+  font-size: 18px;
+}
+
+.tabela-pais tr {
+  background: #f9d7e3;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(172, 107, 140, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.tabela-pais td:first-child {
+  padding: 22px 24px;
+  text-align: left;
+  font-weight: 600;
+  vertical-align: middle;
+  width: 40%;
+} 
+
+.tabela-pais img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(140, 54, 103, 0.25);
+}
+
+.botao-mensagem {
+  background-color: #4CAF50;
+  color: rgb(180, 73, 73);
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.mensagem-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.mensagem-oculta {
+  margin-top: 15px;
+  font-size: 18px;
+  color: #333;
+  text-align: center; 
+}
+a:hover {
+  color: #27ae60;
+  text-decoration: underline;
+}
+
